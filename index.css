@@ -1,0 +1,61 @@
+*{
+    margin: 10px 10px;
+    padding: 5px 5px;    
+}
+
+.menu-container{
+    background-color:burlywood;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.general{
+    display: flex;
+    background-color: white;
+    -webkit-box-flex: 1;  
+}
+
+.announcement{
+    display: flex;
+    background-color: white;
+    -webkit-box-flex: 1;  
+}
+
+.random{
+    display: flex;
+    background-color: white;   
+    -webkit-box-flex: 1;  
+}
+
+.help{
+    display: flex;
+    background-color: white;
+    -webkit-box-flex: 1;  
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.mainArticle{
+    display: flex;
+    background-color:burlywood;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace; 
+    padding: 10px 10px;
+}
+.footer{
+    background-color:burlywood;
+    text-align: center;
+    font-weight: bold;
+}
